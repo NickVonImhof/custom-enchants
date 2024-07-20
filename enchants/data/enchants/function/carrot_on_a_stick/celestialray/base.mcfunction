@@ -1,0 +1,1 @@
+execute if entity @s[tag=!celestialray] run function enchants:carrot_on_a_stick/celestialray/join

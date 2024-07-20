@@ -1,0 +1,29 @@
+{
+    "anvil_cost": 4,
+    "description": "Abyssal Ray",
+    "effects": {
+        "minecraft:tick":[
+          {
+              "effect": {
+                  "type": "minecraft:run_function",
+                  "function":"enchants:carrot_on_a_stick/abyssalray/base"
+              }
+          }
+        ]
+      },
+    "max_cost": {
+      "base": 41,
+      "per_level_above_first": 0
+    },
+    "max_level": 5,
+    "min_cost": {
+      "base": 1,
+      "per_level_above_first": 0
+    },
+    "slots": [
+      "mainhand",
+      "offhand"
+    ],
+    "supported_items": "minecraft:carrot_on_a_stick",
+    "weight": 2
+  }

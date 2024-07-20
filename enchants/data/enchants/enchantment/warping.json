@@ -1,0 +1,42 @@
+{
+    "anvil_cost": 4,
+    "description": "Warping",
+    "effects": {
+        "minecraft:tick":[
+          {
+              "effect": {
+                  "type": "minecraft:run_function",
+                  "function":"enchants:boots/warping/main"
+              }
+          }
+        ],
+        "minecraft:attributes": [
+            {
+              "amount": 10,
+              "attribute": "minecraft:generic.safe_fall_distance",
+              "id": "minecraft:enchantment.warping",
+              "operation": "add_value"
+            },
+            {
+                "amount": -0.5,
+                "attribute": "minecraft:generic.fall_damage_multiplier",
+                "id": "minecraft:enchantment.warping",
+                "operation": "add_value"
+              }
+          ]
+      },
+    "max_cost": {
+      "base": 41,
+      "per_level_above_first": 0
+    },
+    "max_level": 4,
+    "min_cost": {
+      "base": 1,
+      "per_level_above_first": 0
+    },
+    "slots": [
+      "feet"
+    ],
+    "supported_items": "#minecraft:enchantable/foot_armor",
+    "weight": 2
+  }

@@ -1,0 +1,67 @@
+{
+    "anvil_cost": 4,
+    "description": "Explosive Touch",
+    "effects": {
+      "minecraft:post_attack": [
+        {
+          "affected": "victim",
+          "effect": {
+            "type": "minecraft:explode",
+            "damage_type":"explosion",
+            "radius": {
+                "type": "minecraft:linear",
+                "base": 1.0,
+                "per_level_above_first": 0.5
+              },
+            "block_interaction": "tnt",
+            "small_particle": {
+                "type": "minecraft:explosion"
+            },
+            "large_particle": {
+                "type": "minecraft:explosion"
+            },
+            "sound": "minecraft:entity.generic.explode",
+            "knockback_multiplier": 1,
+            "attribute_to_user": true,
+            "create_fire": true
+        },
+          "enchanted": "attacker",
+          "requirements": {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "is_direct": true
+            }
+          }
+        },
+        {
+          "affected": "attacker",
+          "effect": {
+            "type": "minecraft:run_function",
+            "function":"enchants:sword/explosivetouch/main"
+        },
+          "enchanted": "attacker",
+          "requirements": {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "is_direct": true
+            }
+          }
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 60,
+      "per_level_above_first": 20
+    },
+    "max_level": 4,
+    "min_cost": {
+      "base": 3,
+      "per_level_above_first": 20
+    },
+    "primary_items": "#minecraft:enchantable/sword",
+    "slots": [
+      "mainhand"
+    ],
+    "supported_items": "#minecraft:enchantable/sword",
+    "weight": 2
+  }

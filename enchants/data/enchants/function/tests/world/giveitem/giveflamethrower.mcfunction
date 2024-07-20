@@ -1,0 +1,1 @@
+$give @p carrot_on_a_stick[enchantments={levels:{'enchants:flamethrower':$(score)}}]

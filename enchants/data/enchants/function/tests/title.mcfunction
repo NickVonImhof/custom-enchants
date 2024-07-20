@@ -1,0 +1,1 @@
+title @s actionbar ["",{"text":"Current XP","italic":true,"color":"#38858A"},{"text":":","color":"#38858A"},{"score":{"name":"@s","objective":"current_xp"},"color":"aqua"}]

@@ -1,0 +1,16 @@
+{
+    "description":"Basic Enchantment",
+    "supported_items":"minecraft:diamond_sword",
+    "slots":["mainhand"],
+    "weight":1,
+    "anvil_cost":0,
+    "min_cost":{
+        "base":1,
+        "per_level_above_first":1
+    },
+    "max_cost":{
+        "base":10,
+        "per_level_above_first":1
+    },
+    "max_level":10
+}

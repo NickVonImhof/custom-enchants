@@ -1,0 +1,43 @@
+{
+    "anvil_cost": 4,
+    "description": "Mistwalker",
+    "effects": {
+        "minecraft:tick":[
+          {
+              "effect": {
+                  "type": "minecraft:run_function",
+                  "function":"enchants:boots/mistwalker/base"
+              }
+          }
+        ],
+        "minecraft:attributes": [
+            {
+              "amount": 10,
+              "attribute": "minecraft:generic.safe_fall_distance",
+              "id": "minecraft:enchantment.mistwalker",
+              "operation": "add_value"
+            },
+            {
+                "amount": -0.5,
+                "attribute": "minecraft:generic.fall_damage_multiplier",
+                "id": "minecraft:enchantment.mistwalker",
+                "operation": "add_value"
+              }
+          ]
+      },
+    "max_cost": {
+      "base": 41,
+      "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+      "base": 1,
+      "per_level_above_first": 0
+    },
+    "exclusive_set":"enchants:warping",
+    "slots": [
+      "feet"
+    ],
+    "supported_items": "#minecraft:enchantable/foot_armor",
+    "weight": 2
+  }

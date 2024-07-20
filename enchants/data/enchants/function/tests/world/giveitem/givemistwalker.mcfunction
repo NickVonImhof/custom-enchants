@@ -1,0 +1,1 @@
+$give @p diamond_boots[enchantments={levels:{'enchants:mistwalker':$(score)}}]

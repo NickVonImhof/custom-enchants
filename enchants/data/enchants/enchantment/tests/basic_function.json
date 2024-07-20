@@ -1,0 +1,28 @@
+{
+    "anvil_cost": 4,
+    "description": "Basic Function",
+    "effects": {
+        "minecraft:tick":[
+          {
+              "effect": {
+                  "type": "minecraft:run_function",
+                  "function":"enchants:tests/saysomething"
+              }
+          }
+        ]
+      },
+    "max_cost": {
+      "base": 41,
+      "per_level_above_first": 0
+    },
+    "max_level": 3,
+    "min_cost": {
+      "base": 1,
+      "per_level_above_first": 0
+    },
+    "slots": [
+      "chest"
+    ],
+    "supported_items": "#minecraft:enchantable/chest_armor",
+    "weight": 2
+  }

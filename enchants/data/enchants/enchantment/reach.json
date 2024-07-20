@@ -1,0 +1,49 @@
+{
+    "anvil_cost": 4,
+    "description": "Reach",
+    "effects": {
+      "minecraft:attributes": [
+        {
+            "amount": {
+              "type": "minecraft:linear",
+              "base": 2.0,
+              "per_level_above_first": 2.0
+            },
+            "attribute": "minecraft:player.entity_interaction_range",
+            "id": "minecraft:enchantment.reach",
+            "operation": "add_value"
+          }
+      ],
+      "minecraft:post_attack": [
+        {
+          "affected": "attacker",
+          "effect": {
+            "type": "minecraft:run_function",
+            "function":"enchants:sword/reach/main"
+        },
+          "enchanted": "attacker",
+          "requirements": {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "is_direct": true
+            }
+          }
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 41,
+      "per_level_above_first": 0
+    },
+    "max_level": 2,
+    "min_cost": {
+      "base": 1,
+      "per_level_above_first": 0
+    },
+    "primary_items": "#minecraft:enchantable/sword",
+    "slots": [
+      "mainhand"
+    ],
+    "supported_items": "#minecraft:enchantable/sword",
+    "weight": 2
+  }

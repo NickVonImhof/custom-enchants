@@ -1,0 +1,1 @@
+$say the value is: $(score)

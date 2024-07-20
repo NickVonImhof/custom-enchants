@@ -1,0 +1,1 @@
+$give @p diamond_chestplate[enchantments={levels:{'enchants:enlarging':$(score)}}]

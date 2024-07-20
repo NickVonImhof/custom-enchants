@@ -1,0 +1,1 @@
+$say mainhand is $(mainhand), mainhand_new is $(mainhand_new)
