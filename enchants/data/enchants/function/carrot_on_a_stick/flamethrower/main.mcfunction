@@ -1,5 +1,5 @@
 #hold to shoot
-function enchants:carrot_on_a_stick/holdclick_master
+execute if entity @s[tag=!carrot_ran] run function enchants:carrot_on_a_stick/holdclick_master
 
 #shoot if carrot mainhand
 execute if entity @s[scores={pressRC=1..},predicate=enchants:carrot_on_a_stick/flamethrower/flamethrower_mainhand] \

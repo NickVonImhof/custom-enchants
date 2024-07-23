@@ -1,3 +1,5 @@
+tag @s remove carrot_active
+
 tag @s remove flamethrower
 scoreboard players reset @s pressRC
 

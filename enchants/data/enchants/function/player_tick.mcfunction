@@ -27,6 +27,13 @@ execute if entity @s[tag=celestialray] \
     run function enchants:carrot_on_a_stick/celestialray/leave
 execute if entity @s[tag=celestialray] run function enchants:carrot_on_a_stick/celestialray/main
 
+#fulmination
+execute if entity @s[tag=fulmination] \
+    unless entity @s[predicate=enchants:carrot_on_a_stick/fulmination/fulmination_mainhand] \
+    unless entity @s[predicate=enchants:carrot_on_a_stick/fulmination/fulmination_offhand] \
+    run function enchants:carrot_on_a_stick/fulmination/leave
+execute if entity @s[tag=fulmination] run function enchants:carrot_on_a_stick/fulmination/main
+
 #warping
 execute if entity @s[tag=warping] \
     unless entity @s[predicate=enchants:boots/warping/warping] \

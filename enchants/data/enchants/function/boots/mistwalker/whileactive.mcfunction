@@ -1,4 +1,7 @@
 function enchants:boots/mistwalker/xpcost
 
-execute if entity @s[scores={current_xp=..0}] run tag @s add leavespec
-execute if entity @s[scores={current_xp=..0}] run function enchants:boots/mistwalker/deactivate
+scoreboard players remove @s[scores={noxptimer=1..}] noxptimer 1
+
+#have to use unless bc doesnt by default start with noxptimer
+execute if entity @s[scores={current_xp=..0}] unless entity @s[scores={noxptimer=1..}] run tag @s add leavespec
+execute if entity @s[tag=leavespec] run function enchants:boots/mistwalker/deactivate

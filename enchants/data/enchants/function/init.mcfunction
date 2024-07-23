@@ -11,6 +11,7 @@ scoreboard objectives add warping_cd dummy
 
 #mistwalker
 scoreboard objectives add gamemode dummy
+scoreboard objectives add noxptimer dummy
 
 #witherskull
 scoreboard objectives add witherskull_cd dummy
@@ -20,6 +21,10 @@ scoreboard objectives add abyssalray_cd dummy
 
 #celestial ray
 scoreboard objectives add celestialray_cd dummy
+
+#fulmination
+scoreboard objectives add fulmination_cd dummy
+scoreboard objectives add fulmination_charge dummy
 
 # swap chest items
 scoreboard objectives add success1 dummy
