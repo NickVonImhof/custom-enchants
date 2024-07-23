@@ -3,14 +3,14 @@ execute if entity @s[tag=!carrot_ran] run function enchants:carrot_on_a_stick/ho
 
 #shoot if carrot mainhand
 execute if entity @s[scores={pressRC=1..},predicate=enchants:carrot_on_a_stick/fulmination/fulmination_mainhand] \
-    run function enchants:carrot_on_a_stick/fulmination/shoot
+    run function enchants:carrot_on_a_stick/fulmination/charge
 #shoot if carrot offhand unless holding mainhand carrot
 execute if entity @s[scores={pressRC=1..},predicate=enchants:carrot_on_a_stick/fulmination/fulmination_offhand,predicate=!enchants:carrot_on_a_stick/carrot_mainhand] \
-    run function enchants:carrot_on_a_stick/fulmination/shoot
+    run function enchants:carrot_on_a_stick/fulmination/charge
 
 
-# # player's entities 
-# tag @s add is_player
-# execute as @e[tag=flame,type=small_fireball] if score @s uuid = @n[tag=is_player] uuid run tag @s add myflame
-# execute as @e[tag=myflame] at @s run function enchants:carrot_on_a_stick/flamethrower/flameeffects
-# tag @s remove is_player
+# player's entities 
+tag @s add is_player
+execute as @e[tag=explosionorb,type=arrow] if score @s uuid = @n[tag=is_player] uuid run tag @s add myexplosionorb
+execute as @e[tag=myexplosionorb] at @s run function enchants:carrot_on_a_stick/fulmination/explosionorbeffects
+tag @s remove is_player

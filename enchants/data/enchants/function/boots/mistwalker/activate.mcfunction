@@ -9,5 +9,5 @@ tag @s add snuck
 
 scoreboard players set @s[scores={current_xp=..0}] noxptimer 20
 
-scoreboard players set @s r_cost 200
+scoreboard players set @s r_cost 100
 function enchants:levels/xpcost

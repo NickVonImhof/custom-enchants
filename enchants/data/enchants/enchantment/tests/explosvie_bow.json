@@ -1,0 +1,50 @@
+{
+    "anvil_cost": 4,
+    "description": "Explosive Bow",
+    "effects": {
+      "minecraft:post_attack": [
+        {
+          "affected": "victim",
+          "effect": {
+            "type": "minecraft:explode",
+            "damage_type":"explosion",
+            "radius": 8.5,
+            "block_interaction": "mob",
+            "small_particle": {
+                "type": "minecraft:explosion"
+            },
+            "large_particle": {
+                "type": "minecraft:explosion"
+            },
+            "sound": "minecraft:entity.generic.explode",
+            "knockback_multiplier": 1,
+            "attribute_to_user": true,
+            "create_fire": false
+        },
+          "enchanted": "attacker",
+          "requirements": {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "is_direct": false
+            }
+          }
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 60,
+      "per_level_above_first": 20
+    },
+    "max_level": 4,
+    "min_cost": {
+      "base": 3,
+      "per_level_above_first": 20
+    },
+    "primary_items": "#minecraft:enchantable/bow",
+    "slots": [
+      "mainhand",
+      "offhand"
+    ],
+    "supported_items": "#minecraft:enchantable/bow",
+    "weight": 2
+  }

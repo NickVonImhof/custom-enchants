@@ -8,8 +8,8 @@ execute at @s unless block ~ ~ ~ air run function enchants:tpup
 playsound minecraft:block.fire.extinguish master @a ~ ~ ~ 1 1.3
 particle dust{color:[1.0, 1.0, 1.0], scale:2.0} ~ ~1 ~ 0.5 0.75 0.5 0 60 normal
 
-execute if entity @s[tag=leavespec] run scoreboard players set @s r_cost 100
-execute if entity @s[tag=leavespec] run function enchants:levels/xpcost
+scoreboard players set @s r_cost 100
+function enchants:levels/xpcost
 
 tag @s remove boots_active
 tag @s add snuck

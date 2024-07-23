@@ -1,0 +1,1 @@
+$data merge entity @n[tag=current] {weapon: {components: {"minecraft:enchantments": {levels: {"enchants:__fulmination": $(explosion)}},"minecraft:damage": 1}, count: 1, id: "minecraft:carrot_on_a_stick"}}

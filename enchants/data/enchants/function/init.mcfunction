@@ -25,6 +25,7 @@ scoreboard objectives add celestialray_cd dummy
 #fulmination
 scoreboard objectives add fulmination_cd dummy
 scoreboard objectives add fulmination_charge dummy
+scoreboard objectives add fulmination_max_charge dummy
 
 # swap chest items
 scoreboard objectives add success1 dummy
