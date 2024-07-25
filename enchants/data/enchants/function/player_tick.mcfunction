@@ -38,6 +38,12 @@ execute if entity @s[tag=fulmination] \
     run function enchants:carrot_on_a_stick/fulmination/leave
 execute if entity @s[tag=fulmination] run function enchants:carrot_on_a_stick/fulmination/main
 
+#vitality ward
+execute if entity @s[tag=vitalityward] \
+    unless entity @s[predicate=enchants:shield/vitalityward/vitalityward_mainhand] \
+    unless entity @s[predicate=enchants:shield/vitalityward/vitalityward_offhand] \
+    run function enchants:shield/vitalityward/leave
+
 #warping
 execute if entity @s[tag=warping] \
     unless entity @s[predicate=enchants:boots/warping/warping] \

@@ -1,1 +1,0 @@
-$say offhand is $(offhand), offhand_new is $(offhand_new)

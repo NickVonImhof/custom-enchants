@@ -27,6 +27,9 @@ scoreboard objectives add fulmination_cd dummy
 scoreboard objectives add fulmination_charge dummy
 scoreboard objectives add fulmination_max_charge dummy
 
+#vitalityward
+scoreboard objectives add max_health dummy
+
 # swap chest items
 scoreboard objectives add success1 dummy
 scoreboard objectives add success2 dummy
