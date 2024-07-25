@@ -1,4 +1,8 @@
 
+execute unless entity @s[tag=initialized] run function enchants:initialize
+
+title @s[scores={current_xp=1..}] actionbar ["",{"text":" ","italic":true,"color":"#38858A"},{"score":{"name":"@s","objective":"current_xp"},"color":"aqua"},{"text":" ","italic":true,"color":"#38858A"}]
+
 #flamethrower
 execute if entity @s[tag=flamethrower] \
     unless entity @s[predicate=enchants:carrot_on_a_stick/flamethrower/flamethrower_mainhand] \
@@ -71,12 +75,4 @@ scoreboard players reset @s[scores={Carrot=1..}] Carrot
 scoreboard players reset @s[scores={Sneak=1..}] Sneak
 tag @s[tag=swapped] remove swapped
 tag @s[tag=carrot_ran] remove carrot_ran
-
-
-execute unless entity @s[tag=initialized] run function enchants:initialize
-
-title @s[scores={current_xp=1..}] actionbar ["",{"text":" ","italic":true,"color":"#38858A"},{"score":{"name":"@s","objective":"current_xp"},"color":"aqua"},{"text":" ","italic":true,"color":"#38858A"}]
-
-# execute if entity @a[tag=test] run say player tick
-# execute if entity @s[tag=test] run say I AM SAYING THIS AS A PLAYER
 

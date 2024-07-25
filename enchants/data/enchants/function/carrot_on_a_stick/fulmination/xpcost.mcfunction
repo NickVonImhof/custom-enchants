@@ -3,7 +3,7 @@
 execute store result score @s lvl run scoreboard players get @s fulmination_charge
 
 #multiplier per lvl
-scoreboard players set @s delta 4
+scoreboard players set @s delta 10
 scoreboard players operation @s lvl *= @s delta
 #base value
 scoreboard players set @s delta 50
