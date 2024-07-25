@@ -16,9 +16,10 @@ scoreboard players operation @s fulmination_max_charge += @s delta
 scoreboard players reset @s lvl
 scoreboard players reset @s delta
 
-
 effect give @s slowness infinite 1 true
+attribute @s minecraft:generic.jump_strength modifier add fulmination -1 add_value
 
 #remove 1 point xp (for dmg feedback if out of xp)
 scoreboard players set @s r_cost 100
 function enchants:levels/xpcost
+

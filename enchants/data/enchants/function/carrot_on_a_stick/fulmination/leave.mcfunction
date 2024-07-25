@@ -1,6 +1,7 @@
 tag @s remove carrot_active
 
 effect clear @s slowness
+attribute @s minecraft:generic.jump_strength modifier remove fulmination
 
 tag @s remove fulmination
 scoreboard players reset @s pressRC

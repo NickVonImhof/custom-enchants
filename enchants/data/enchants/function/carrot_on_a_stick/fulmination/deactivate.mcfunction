@@ -33,5 +33,8 @@ scoreboard players reset @s delta
 scoreboard players reset @s lvl
 
 effect clear @s slowness
+attribute @s minecraft:generic.jump_strength modifier remove fulmination
+
+scoreboard players set @s fulmination_cd 80
 
 #/give @s arrow[potion_contents={custom_effects:[{id:slow_falling,amplifier:1}]}]
