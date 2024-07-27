@@ -6,7 +6,7 @@
           {
               "effect": {
                   "type": "minecraft:run_function",
-                  "function":"enchants:shield/vitalityward/main"
+                  "function":"enchants:shield/vitalityward/base"
               }
           }
         ]

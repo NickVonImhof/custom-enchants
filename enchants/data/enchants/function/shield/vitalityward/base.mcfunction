@@ -1,0 +1,1 @@
+execute if entity @s[tag=!vitalityward] run function enchants:shield/vitalityward/join

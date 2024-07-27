@@ -43,12 +43,21 @@ execute if entity @s[tag=vitalityward] \
     unless entity @s[predicate=enchants:shield/vitalityward/vitalityward_mainhand] \
     unless entity @s[predicate=enchants:shield/vitalityward/vitalityward_offhand] \
     run function enchants:shield/vitalityward/leave
+    execute if entity @s[tag=vitalityward] run function enchants:shield/vitalityward/main
 
-#vitality ward
+#reflection
 execute if entity @s[tag=reflection] \
     unless entity @s[predicate=enchants:shield/reflection/reflection_mainhand] \
     unless entity @s[predicate=enchants:shield/reflection/reflection_offhand] \
     run function enchants:shield/reflection/leave
+    execute if entity @s[tag=reflection] run function enchants:shield/reflection/main
+
+#stoneskin
+execute if entity @s[tag=stoneskin] \
+    unless entity @s[predicate=enchants:shield/stoneskin/stoneskin_mainhand] \
+    unless entity @s[predicate=enchants:shield/stoneskin/stoneskin_offhand] \
+    run function enchants:shield/stoneskin/leave
+    execute if entity @s[tag=stoneskin] run function enchants:shield/stoneskin/main
 
 #warping
 execute if entity @s[tag=warping] \
@@ -87,4 +96,4 @@ scoreboard players reset @s[scores={Carrot=1..}] Carrot
 scoreboard players reset @s[scores={Sneak=1..}] Sneak
 tag @s[tag=swapped] remove swapped
 tag @s[tag=carrot_ran] remove carrot_ran
-
+tag @s[tag=shield_ran] remove shield_ran

@@ -1,3 +1,3 @@
 advancement revoke @s only enchants:shield
 
-tag @s add shield_using
+tag @s[tag=!shield_ran] add shield_using

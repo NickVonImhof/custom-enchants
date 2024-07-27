@@ -1,0 +1,1 @@
+execute if entity @s[tag=!stoneskin] run function enchants:shield/stoneskin/join
