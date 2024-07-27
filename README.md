@@ -2,7 +2,7 @@
 
 ### Overview:
 
-This datapack adds a variety of custom encantments which far surpass the power of regular minecraft enchantments, but they come at a cost: each time you use the enchantment, it consumes some of your experience. If you have no experience left, using enchantments will instead cost health!
+This datapack adds a variety of custom enchantments which far surpass the power of regular minecraft enchantments, but they come at a cost: each time you use the enchantment, it consumes some of your experience. If you have no experience left, using enchantments will instead cost health!
 
 Currently, there are enchantments on your chestplate, boots, sword, shield, and carrot on a stick (with more to come). Each category of enchantment is triggered in a different way, explained below. 
 
@@ -44,9 +44,9 @@ Trigger these enchantments by blocking with a shield.
 
 - #### Vitality Ward
 
-- #### \<armor lock TBD/WIP>
+- #### Reflection
 
-- #### \<projectile shield TBD/WIP>
+- #### \<armor lock TBD/WIP>
 
 ### Carrot On A Stick
 

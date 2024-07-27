@@ -1,3 +1,6 @@
+tellraw @s[scores={fulmination_cd=1..},tag=!fulmination_cd_notified] {"text":"Fulmination on cooldown.","italic":true,"color":"aqua"}
+tag @s[scores={fulmination_cd=1..}] add fulmination_cd_notified
+execute if entity @s[scores={fulmination_cd=1..}] run return -1
 
 execute store result score @s[predicate=enchants:carrot_on_a_stick/fulmination/fulmination_offhand] lvl run data get entity @s Inventory[{Slot:-106b}].components.minecraft:enchantments.levels.enchants:fulmination
 execute store result score @s[predicate=enchants:carrot_on_a_stick/fulmination/fulmination_mainhand] lvl run data get entity @s SelectedItem.components.minecraft:enchantments.levels.enchants:fulmination

@@ -67,6 +67,10 @@ scoreboard objectives add rotX dummy
 scoreboard objectives add rotY dummy
 scoreboard objectives add rotZ dummy
 
+scoreboard objectives add motX dummy
+scoreboard objectives add motY dummy
+scoreboard objectives add motZ dummy
+
 
 
 say loaded

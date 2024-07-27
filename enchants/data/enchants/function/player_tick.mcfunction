@@ -44,6 +44,12 @@ execute if entity @s[tag=vitalityward] \
     unless entity @s[predicate=enchants:shield/vitalityward/vitalityward_offhand] \
     run function enchants:shield/vitalityward/leave
 
+#vitality ward
+execute if entity @s[tag=reflection] \
+    unless entity @s[predicate=enchants:shield/reflection/reflection_mainhand] \
+    unless entity @s[predicate=enchants:shield/reflection/reflection_offhand] \
+    run function enchants:shield/reflection/leave
+
 #warping
 execute if entity @s[tag=warping] \
     unless entity @s[predicate=enchants:boots/warping/warping] \
