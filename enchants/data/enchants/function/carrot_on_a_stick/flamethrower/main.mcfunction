@@ -11,6 +11,6 @@ execute if entity @s[scores={pressRC=1..},predicate=enchants:carrot_on_a_stick/f
 
 # player's entities 
 tag @s add is_player
-execute as @e[tag=flame,type=small_fireball] if score @s uuid = @n[tag=is_player] uuid run tag @s add myflame
+execute as @e[tag=flame,type=small_fireball] if score @s uuid = @p[tag=is_player] uuid run tag @s add myflame
 execute as @e[tag=myflame] at @s run function enchants:carrot_on_a_stick/flamethrower/flameeffects
 tag @s remove is_player

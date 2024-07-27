@@ -8,6 +8,6 @@ scoreboard players remove @s[scores={witherskull_cd=1..}] witherskull_cd 1
 
 # player's entities 
 tag @s add is_player
-execute as @e[tag=skull,type=wither_skull] if score @s uuid = @n[tag=is_player] uuid run tag @s add myskull
+execute as @e[tag=skull,type=wither_skull] if score @s uuid = @p[tag=is_player] uuid run tag @s add myskull
 execute as @e[tag=myskull] at @s run function enchants:carrot_on_a_stick/witherskull/skulleffects
 tag @s remove is_player

@@ -10,6 +10,6 @@ scoreboard players reset @s fulmination_charge
 scoreboard players reset @s fulmination_max_charge
 
 tag @s add is_player
-execute as @e[tag=explosionorb,type=arrow] if score @s uuid = @n[tag=is_player] uuid run tag @s add myexplosionorb
+execute as @e[tag=explosionorb,type=arrow] if score @s uuid = @p[tag=is_player] uuid run tag @s add myexplosionorb
 tag @s remove is_player
 kill @e[tag=myexplosionorb]

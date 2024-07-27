@@ -17,6 +17,6 @@ scoreboard players remove @s[scores={fulmination_cd=1..}] fulmination_cd 1
 
 # player's entities 
 tag @s add is_player
-execute as @e[tag=explosionorb,type=arrow] if score @s uuid = @n[tag=is_player] uuid run tag @s add myexplosionorb
+execute as @e[tag=explosionorb,type=arrow] if score @s uuid = @p[tag=is_player] uuid run tag @s add myexplosionorb
 execute as @e[tag=myexplosionorb] at @s run function enchants:carrot_on_a_stick/fulmination/explosionorbeffects
 tag @s remove is_player
