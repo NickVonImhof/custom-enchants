@@ -1,1 +1,0 @@
-execute if entity @s[nbt={OnGround:false}] run say Ran from enchantment
