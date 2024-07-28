@@ -20,6 +20,8 @@ Activate/deactivate these enchantments by pressing F, or toggling your mainhand 
 
 - #### Aerostep
 
+- #### Ironskin
+
 ### Boots Enchantments
 
 Trigger these enchantments by pressing shift, or Sneak. 
@@ -45,8 +47,6 @@ Trigger these enchantments by blocking with a shield.
 - #### Vitality Ward
 
 - #### Reflection
-
-- #### \<armor lock TBD/WIP>
 
 ### Carrot On A Stick
 

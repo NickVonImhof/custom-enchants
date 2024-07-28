@@ -1,0 +1,34 @@
+{
+    "anvil_cost": 4,
+    "description": "Ironskin",
+    "effects": {
+        "minecraft:tick":[
+          {
+              "effect": {
+                  "type": "minecraft:run_function",
+                  "function":"enchants:chest/compare/ontick"
+              }
+          },
+          {
+            "effect": {
+                "type": "minecraft:run_function",
+                "function":"enchants:chest/ironskin/main"
+            }
+        }
+        ]
+      },
+    "max_cost": {
+      "base": 41,
+      "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+      "base": 1,
+      "per_level_above_first": 0
+    },
+    "slots": [
+        "chest"
+      ],
+      "supported_items": "#minecraft:enchantable/chest_armor",
+      "weight": 2
+    }

@@ -52,12 +52,10 @@ execute if entity @s[tag=reflection] \
     run function enchants:shield/reflection/leave
     execute if entity @s[tag=reflection] run function enchants:shield/reflection/main
 
-#stoneskin
-execute if entity @s[tag=stoneskin] \
-    unless entity @s[predicate=enchants:shield/stoneskin/stoneskin_mainhand] \
-    unless entity @s[predicate=enchants:shield/stoneskin/stoneskin_offhand] \
-    run function enchants:shield/stoneskin/leave
-    execute if entity @s[tag=stoneskin] run function enchants:shield/stoneskin/main
+#ironskin
+execute if entity @s[tag=ironskin] \
+    unless entity @s[predicate=enchants:chest/ironskin/ironskin] \
+    run function enchants:chest/ironskin/leave
 
 #warping
 execute if entity @s[tag=warping] \
