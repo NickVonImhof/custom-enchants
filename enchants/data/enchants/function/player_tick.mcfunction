@@ -69,15 +69,15 @@ execute if entity @s[tag=mistwalker] \
 execute if entity @s[tag=mistwalker] run function enchants:boots/mistwalker/main
 
 
-#quickstep
-execute if entity @s[tag=quickstep] \
-    unless entity @s[predicate=enchants:chest/quickstep/quickstep] \
-    run function enchants:chest/quickstep/leave
+#blitz
+execute if entity @s[tag=blitz] \
+    unless entity @s[predicate=enchants:chest/blitz/blitz] \
+    run function enchants:chest/blitz/leave
 
-#aerostep
-execute if entity @s[tag=aerostep] \
-    unless entity @s[predicate=enchants:chest/aerostep/aerostep] \
-    run function enchants:chest/aerostep/leave
+#zephyr
+execute if entity @s[tag=zephyr] \
+    unless entity @s[predicate=enchants:chest/zephyr/zephyr] \
+    run function enchants:chest/zephyr/leave
 
 #enlarging
 execute if entity @s[tag=enlarging] \

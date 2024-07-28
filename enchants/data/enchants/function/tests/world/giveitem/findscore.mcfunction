@@ -4,8 +4,8 @@ execute if entity @n[tag=mite,name="Warping Level"] run function enchants:tests/
 execute if entity @n[tag=mite,name="Mistwalker Level"] run function enchants:tests/world/giveitem/givemistwalker with storage storage:endermite
 execute if entity @n[tag=mite,name="Enlarging Level"] run function enchants:tests/world/giveitem/giveenlarging with storage storage:endermite
 execute if entity @n[tag=mite,name="Diminishing Level"] run function enchants:tests/world/giveitem/givediminishing with storage storage:endermite
-execute if entity @n[tag=mite,name="Quickstep Level"] run function enchants:tests/world/giveitem/givequickstep with storage storage:endermite
-execute if entity @n[tag=mite,name="Aerostep Level"] run function enchants:tests/world/giveitem/giveaerostep with storage storage:endermite
+execute if entity @n[tag=mite,name="blitz Level"] run function enchants:tests/world/giveitem/giveblitz with storage storage:endermite
+execute if entity @n[tag=mite,name="zephyr Level"] run function enchants:tests/world/giveitem/givezephyr with storage storage:endermite
 execute if entity @n[tag=mite,name="Flamethrower Level"] run function enchants:tests/world/giveitem/giveflamethrower with storage storage:endermite
 
 tag @n[tag=mite] remove mite

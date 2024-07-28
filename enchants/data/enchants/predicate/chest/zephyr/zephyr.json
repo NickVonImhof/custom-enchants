@@ -7,7 +7,7 @@
           "predicates": {
             "minecraft:enchantments": [
               {
-                "enchantments": "enchants:aerostep"
+                "enchantments": "enchants:zephyr"
               }
             ]
           }

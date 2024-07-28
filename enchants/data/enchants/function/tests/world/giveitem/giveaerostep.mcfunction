@@ -1,1 +1,0 @@
-$give @p diamond_chestplate[enchantments={levels:{'enchants:aerostep':$(score)}}]

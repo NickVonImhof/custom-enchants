@@ -1,6 +1,6 @@
 {
     "anvil_cost": 4,
-    "description": "Quickstep",
+    "description": "Blitz",
     "effects": {
         "minecraft:tick":[
           {
@@ -12,7 +12,7 @@
           {
             "effect": {
                 "type": "minecraft:run_function",
-                "function":"enchants:chest/quickstep/main"
+                "function":"enchants:chest/blitz/main"
             }
         }
         ]
@@ -26,7 +26,7 @@
       "base": 1,
       "per_level_above_first": 0
     },
-    "exclusive_set":"enchants:aerostep",
+    "exclusive_set":"enchants:zephyr",
     "slots": [
         "chest"
       ],

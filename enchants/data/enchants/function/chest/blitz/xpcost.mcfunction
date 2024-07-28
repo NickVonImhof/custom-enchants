@@ -1,5 +1,5 @@
 
-execute store result score @s lvl run data get entity @s Inventory[{Slot:102b}].components.minecraft:enchantments.levels.enchants:quickstep
+execute store result score @s lvl run data get entity @s Inventory[{Slot:102b}].components.minecraft:enchantments.levels.enchants:blitz
 
 #multiplier per lvl
 scoreboard players set @s delta 4

@@ -1,4 +1,4 @@
-execute store result score @s lvl_saved run data get entity @s Inventory[{Slot:102b}].components.minecraft:enchantments.levels.enchants:quickstep
+execute store result score @s lvl_saved run data get entity @s Inventory[{Slot:102b}].components.minecraft:enchantments.levels.enchants:blitz
 
 #speed
 execute store result score @s lvl run scoreboard players get @s lvl_saved
@@ -24,7 +24,7 @@ scoreboard players set @s delta 33
 scoreboard players operation @s lvl *= @s delta
 execute store result storage storage jump float 0.01 run scoreboard players get @s lvl
 
-function enchants:chest/quickstep/macro_activate with storage storage
+function enchants:chest/blitz/macro_activate with storage storage
 
 playsound minecraft:block.beacon.activate master @a ~ ~ ~ 1 2
 # particle minecraft:electric_spark ~ ~0.5 ~ 0.50 0.8 0.5 0.3 60 normal
