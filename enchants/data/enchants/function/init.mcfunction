@@ -27,6 +27,9 @@ scoreboard objectives add fulmination_cd dummy
 scoreboard objectives add fulmination_charge dummy
 scoreboard objectives add fulmination_max_charge dummy
 
+#zephyr
+scoreboard objectives add zephyr_tempo dummy
+
 #vitalityward
 scoreboard objectives add max_health dummy
 
