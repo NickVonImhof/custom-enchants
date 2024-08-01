@@ -26,9 +26,9 @@ Activate/deactivate these enchantments by pressing F, or toggling your mainhand 
     - Max lvl: 10
     - Increases the size, speed, jump strength, interaction range, and many other attributes for the player. Higher levels increase the strength of this effect.
 
-- #### Reducing
+- #### Diminishing
     - Max lvl: 3
-    - Decreases the size (greatly), speed, and interaction range of the player. Higher levels increase the strength of this effect.
+    - Decreases the size (greatly), speed (slightly), and interaction range of the player. Higher levels increase the strength of this effect.
 
 ### Boots Enchantments
 
