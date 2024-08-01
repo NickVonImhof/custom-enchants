@@ -44,7 +44,7 @@ Trigger these enchantments by pressing shift, or Sneak.
 
 - #### Galestep
     - Max lvl: 3
-    - Leap forwards in a burst of wind. You can hold down sneak to repeatedly trigger this effect. Higher levels will decrease the (already very short) cooldown. (At max lvl of 3, holding down crouch will causey you to fly through the air at mach 2+.)
+    - Leap forwards in a burst of wind. You can hold down sneak to repeatedly trigger this effect. Higher levels will decrease the (already very short) cooldown. (At max lvl of 3, holding down crouch will cause you to fly through the air at mach 2+.)
 
 - #### Rewind
     - Max lvl: 1
@@ -56,15 +56,15 @@ Trigger these enchantments by hitting things.
 
 - #### Explosive Touch
     - Max lvl: 4
-    - Cause an explosion on any entity you hit. Higher levels will increase the size of the explosion. (Note: this explosion will damage you as well!! Usage with Reach is recommended.)
+    - Cause an explosion on any entity you hit. Higher levels will increase the size of the explosion. (Note: this explosion will damage you!! Usage with Reach is recommended.)
 
 - #### Reach
     - Max lvl: 2
-    - Increases the range that you can hit entities from. higher levels will further increase the range.
+    - Increases the range that you can hit entities from. Higher levels will further increase the range.
 
 - #### Vitality Touch
     - Max lvl: 3
-    - Effect any entity you hit with Instant Health. Higher levels will increase the strength of the effect.
+    - Cause any entity you hit to gain health. Higher levels will increase the strength of the effect.
 
 ### Shield
 
@@ -76,7 +76,7 @@ Trigger these enchantments by blocking with a shield.
 
 - #### Reflection
     - Max lvl: 3
-    - Create a bubble around you which will reflect all incoming projectiles back where they came from. Any projectile that is fired from inside the bubble will instead be erased from existence. Higher levels will increase the size of the bubble.
+    - Create a bubble around you which will reflect all incoming projectiles back towards where they came from. Any projectile that is fired from inside the bubble will instead be erased from existence. Higher levels will increase the size of the bubble.
 
 ### Carrot On A Stick
 
@@ -84,11 +84,11 @@ Trigger these enchantments by pressing or holding right click whith a carrot on 
 
 - #### Flamethrower
     - Max lvl: 5
-    - Shoot flames where you are looking. Higher levels will increase the speed and longevity of the flame projectile.
+    - Hold to shoot flames where you are looking. Higher levels will increase the speed and longevity of the flame projectile.
 
 - #### Fulmination
     - Max lvl: 5
-    - Hold to charge up your fulmination. Release to fire a projectile that will explode on contact with anything, causing a bigger explosion based off of how long you charged it. Higher levels will increase the rate of charge, as well as the maximum charge.
+    - Hold to charge up your fulmination. Release to fire a projectile that will explode on contact with anything, causing a bigger explosion based off of how much you charged it. Higher levels will increase the rate of charge, as well as the maximum charge.
 
 - #### Wither Skull
     - Max lvl: 3
