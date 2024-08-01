@@ -1,4 +1,8 @@
 
+scoreboard players set @s[gamemode=survival] gamemode 0
+scoreboard players set @s[gamemode=creative] gamemode 1
+scoreboard players set @s[gamemode=adventure] gamemode 2
+
 gamemode spectator @s
 
 playsound minecraft:block.fire.extinguish master @a ~ ~ ~ 1 1.6

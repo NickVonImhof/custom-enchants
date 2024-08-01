@@ -1,7 +1,7 @@
 
 execute unless entity @s[tag=initialized] run function enchants:initialize
 
-title @s[scores={current_xp=1..}] actionbar ["",{"text":" ","italic":true,"color":"#38858A"},{"score":{"name":"@s","objective":"current_xp"},"color":"aqua"},{"text":" ","italic":true,"color":"#38858A"}]
+title @s[scores={current_xp=1..}] actionbar ["",{"text":" ","italic":true,"color":"#38858A"},{"score":{"name":"@s","objective":"current_xp"},"color":"green"},{"text":" ","italic":true,"color":"#38858A"}]
 
 #flamethrower
 execute if entity @s[tag=flamethrower] \
@@ -61,6 +61,12 @@ execute if entity @s[tag=ironskin] \
 execute if entity @s[tag=warping] \
     unless entity @s[predicate=enchants:boots/warping/warping] \
     run function enchants:boots/warping/leave
+
+#galestep
+execute if entity @s[tag=galestep] \
+    unless entity @s[predicate=enchants:boots/galestep/galestep] \
+    run function enchants:boots/galestep/leave
+execute if entity @s[tag=galestep] run function enchants:boots/galestep/main
 
 #mistwalker
 execute if entity @s[tag=mistwalker] \

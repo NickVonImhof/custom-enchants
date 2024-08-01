@@ -1,5 +1,5 @@
 
-execute store result storage storage explosion float 0.075 run scoreboard players get @s fulmination_charge
+execute store result storage storage explosion float 0.03 run scoreboard players get @s fulmination_charge
 function enchants:carrot_on_a_stick/fulmination/explode_macro with storage storage
 
 #worst case you summon a marker for each arrow, with a certian tag and your UUID, and store fulmination charge. 

@@ -16,3 +16,4 @@ tag @s remove boots_active
 tag @s add snuck
 tag @s remove leavespec
 scoreboard players reset @s noxptimer
+scoreboard players reset @s gamemode

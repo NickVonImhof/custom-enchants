@@ -16,9 +16,9 @@ Activate/deactivate these enchantments by pressing F, or toggling your mainhand 
 
 - #### Reducing
 
-- #### Quickstep
+- #### Blitz
 
-- #### Aerostep
+- #### Zephyr
 
 - #### Ironskin
 
@@ -29,6 +29,11 @@ Trigger these enchantments by pressing shift, or Sneak.
 - #### Warping
 
 - #### Mistwalker
+
+- #### Galestep
+    - lmao and i thought elytra were fast
+
+- #### <recall TBD>
 
 ### Sword Enchantments
 

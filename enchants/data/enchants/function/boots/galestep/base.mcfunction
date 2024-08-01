@@ -1,0 +1,1 @@
+execute if entity @s[tag=!galestep] run function enchants:boots/galestep/join

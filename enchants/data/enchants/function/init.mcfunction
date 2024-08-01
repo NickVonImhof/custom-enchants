@@ -3,14 +3,17 @@ scoreboard objectives add Carrot minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add Health health
 scoreboard objectives setdisplay list Health 
 scoreboard objectives add Sneak minecraft.custom:minecraft.sneak_time
+scoreboard objectives add gamemode dummy
 
 #enchantment specific
 #warping
 scoreboard objectives add teledistance dummy
 scoreboard objectives add warping_cd dummy
 
+#galestep
+scoreboard objectives add galestep_cd dummy
+
 #mistwalker
-scoreboard objectives add gamemode dummy
 scoreboard objectives add noxptimer dummy
 
 #witherskull
