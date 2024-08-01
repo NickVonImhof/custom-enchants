@@ -33,7 +33,7 @@ Trigger these enchantments by pressing shift, or Sneak.
 - #### Galestep
     - lmao and i thought elytra were fast
 
-- #### <recall TBD>
+- #### Rewind
 
 ### Sword Enchantments
 

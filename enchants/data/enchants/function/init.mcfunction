@@ -16,6 +16,11 @@ scoreboard objectives add galestep_cd dummy
 #mistwalker
 scoreboard objectives add noxptimer dummy
 
+#rewind
+scoreboard objectives add rewinding dummy
+scoreboard objectives add rewind_tempo dummy
+scoreboard objectives add prev_health dummy
+
 #witherskull
 scoreboard objectives add witherskull_cd dummy
 

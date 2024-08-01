@@ -74,6 +74,10 @@ execute if entity @s[tag=mistwalker] \
     run function enchants:boots/mistwalker/leave
 execute if entity @s[tag=mistwalker] run function enchants:boots/mistwalker/main
 
+#rewind
+execute if entity @s[tag=rewind] \
+    unless entity @s[predicate=enchants:boots/rewind/rewind] \
+    run function enchants:boots/rewind/leave
 
 #blitz
 execute if entity @s[tag=blitz] \
